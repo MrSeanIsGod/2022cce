@@ -13,7 +13,7 @@ int main()
         printf("i:%d¬P¬P\n",i);
     }
 }
-
+```
 2.畫星星金字塔
 
 ```cpp
@@ -30,7 +30,7 @@ int main()
         printf("\n");
     }
 }
-
+```
 3.找公因數(暴搜法)
 
 ```cpp
@@ -51,7 +51,7 @@ int main()
     }
     printf("ans: %d 可約分",ans);
 }
-
+```
 4.找公因數(輾轉相除法)
 
 ```cpp
@@ -71,3 +71,4 @@ int main()
     }
     printf("答案b: %d",b);
 }
+```
