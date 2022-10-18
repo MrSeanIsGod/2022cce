@@ -1,6 +1,7 @@
 # 2022cce
 
-Week06\n
+Week06
+
 1.畫星星
 
 ```cpp
@@ -74,6 +75,7 @@ int main()
 }
 ```
 Week07
+
 ```cpp
 #include <stdio.h>
 int main()
