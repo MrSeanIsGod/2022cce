@@ -1,5 +1,6 @@
 # 2022cce
 
+Week06
 1.畫星星
 
 ```cpp
@@ -72,7 +73,7 @@ int main()
     printf("答案b: %d",b);
 }
 ```
-
+Week07
 ```cpp
 #include <stdio.h>
 int main()
