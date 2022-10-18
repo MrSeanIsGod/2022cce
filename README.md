@@ -1,6 +1,6 @@
 # 2022cce
 
-Week06
+Week06\n
 1.畫星星
 
 ```cpp
