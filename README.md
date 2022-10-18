@@ -72,6 +72,8 @@ int main()
     printf("答案b: %d",b);
 }
 ```
+
+```cpp
 #include <stdio.h>
 int main()
 {
