@@ -76,6 +76,7 @@ int main()
 ```
 Week07
 
+1.long long int 可以放進更多位數的數字
 ```cpp
 #include <stdio.h>
 int main()
@@ -87,8 +88,8 @@ int main()
     printf("long long int 印出來 %lld\n",a);
 }
 ```
-long long int 可以放進更多位數的數字
 
+2.用暴力搜尋法找最大公因數，但這樣太慢了
 ```cpp
 #include <stdio.h>
 int main()
@@ -103,8 +104,8 @@ int main()
     printf("最大公因數是:%lld\n",ans);
 }
 ```
-用暴力搜尋法找最大公因數，但這樣太慢了
 
+3.用輾轉相除法找公因數快上許多
 ```cpp
 #include <stdio.h>
 int main()
@@ -121,8 +122,8 @@ int main()
     printf("答案是: %lld\n",b);
 }
 ```
-用輾轉相除法找公因數快上許多
 
+4.剝皮法
 ```cpp
 #include <stdio.h>
 int main()
@@ -161,9 +162,11 @@ int main()
     n=n/10;
 }
 ```
-剝皮法
+
 
 Week08
+
+1.判斷質數
 ```cpp
 #include <stdio.h>
 int main()
@@ -178,6 +181,8 @@ int main()
     else printf("%d 不好, 不是質數",n);
 }
 ```
+
+2.用兩個for迴圈判斷質數
 ```cpp
 #include <stdio.h>
 int main()
@@ -193,21 +198,25 @@ int main()
 	}
 }
 ```
+
+3. 5個數字加總
 ```cpp
 #include <stdio.h>
 int main()
 {
-	int a;
-	scanf("%d",&a);
-	for(int n=2;n<=a;n++){
-		int bad=0;
-		for(int i=2;i<n;i++){
-			if(n%i==0) bad=1;
-		}
-		if(bad==0) printf("%d ",n);
-	}
+    printf("請輸入5個數字(要加起來)");
+    int n;
+    int sum=0;
+    for(int i=0;i<5;i++){
+        scanf("%d",&n);
+        sum+=n;
+    }
+    printf("總和是:%d",sum);
 }
+
 ```
+
+4.用for迴圈印* 直角三角形
 ```cpp
 #include <stdio.h>
 int main()
@@ -221,6 +230,8 @@ int main()
     }
 }
 ```
+
+5.只用2個for迴圈印* 直角三角形
 ```cpp
 #include <stdio.h>
 int main()
@@ -236,6 +247,8 @@ int main()
     }
 }
 ```
+
+6.用while迴圈印* 直角三角形
 ```cpp
 #include <stdio.h>
 int main()
