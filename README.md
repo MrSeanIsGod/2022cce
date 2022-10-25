@@ -208,7 +208,8 @@ int main()
 	}
 }
 ```
-```cpp#include <stdio.h>
+```cpp
+#include <stdio.h>
 int main()
 {
     int n;
